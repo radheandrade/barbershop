@@ -1,0 +1,38 @@
+.botones1 {
+    
+    button {
+        border-radius: 35px;
+        background-color: $gris;
+        margin-left: 10px;
+    }
+
+}
+.paginador {
+    
+    &-container{
+        ul .page-item .anterior{
+            border-bottom-left-radius: 1.5em;
+            border-top-left-radius: 1.5em;
+        }
+        ul .page-item .siguiente{
+            border-bottom-right-radius: 1.5em;
+            border-top-right-radius: 1.5em;
+        }
+    }
+
+    a {
+        background-color: $gris;
+        color: $white;
+       
+    }
+    background-color: $platinum;
+    font-family: 'Roboto', sans-serif;
+    font-size: $l;
+    font-weight: $light;
+    
+}
+.anterior {
+
+    border-top-left-radius: 50px;
+    
+}

@@ -1,0 +1,33 @@
+@media(max-width: 1000px) {
+    .naomi-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .naomithai-texto {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .naomi-titulo h2 h3 {
+        text-align: center;
+        
+        justify-content: center;
+
+    }
+
+    .naomi-texto1 {
+        display: none;
+    }
+    .header1 {
+        h1 {
+        font-size: 80px;
+        }
+    }
+    .header-arrow {
+        color: $white;
+        
+        position: absolute;
+        bottom: 0;
+}
+
+}

@@ -1,0 +1,52 @@
+.naomi-thai {
+    img {
+        width: 200px;
+        height: 200px;;
+        border-radius: 50%;
+        display: flex;
+    }
+    
+}
+.naomithai-texto {
+    justify-content: space-between;
+
+    h2 {
+        font-family: 'Playfair Display';
+        font-size: $m;
+        font-weight: $bold;
+        font-style: italic;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: $s;
+        font-weight: $light;
+        line-height: 40px;
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        color: $rosado;
+    }
+    display: flex;
+    font-size: $l;
+    align-items: center;
+}
+.naomi-texto1{
+    width: 75%
+}
+.naomi-titulo {   
+            padding-top: 20px;
+            font-weight: $bold;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 4%;
+    h2 {
+        
+        font-family: 'Playfair Display' serif;
+        font-size: $xl
+        
+    }
+}   
+.naomi-flex {
+    display: flex;
+}

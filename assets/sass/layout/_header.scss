@@ -1,0 +1,36 @@
+.header1 {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(../img/post-image.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-title {
+
+    text-align: center;
+    color: white;
+    
+    
+}
+.titulo {
+    font-family: 'Playfair Display';
+    font-size: $xxl;
+    font-weight: $bold;
+    font-style: italic;
+}
+.header-arrow {
+    color: $white;
+    font-size: $xxl;
+    position: absolute;
+    bottom: 0;
+    
+  
+}
